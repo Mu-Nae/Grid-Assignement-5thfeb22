@@ -1,0 +1,73 @@
+
+
+body {
+
+   display: grid;
+   grid-template-columns: 2fr 4fr;
+   grid-template-rows: 1fr 3fr 1fr 1fr;
+   height: 800px;
+   width: 1400px;
+   grid-row-gap: 10px;
+   grid-column-gap: 10px; 
+   width: 1400px;
+   height: 700px;
+
+
+
+
+
+}
+
+.logo {
+
+
+    background-color: blue;
+    display: grid;
+    font-size: 50px;
+    width: 400px;
+
+}
+
+.menu {
+
+    background-color: blueviolet;
+    font-size: 50px;
+    width: auto;
+
+
+}
+
+.main {
+
+
+    background-color: green;
+    font-size: 50px;
+    max-width: 1000px;    
+
+
+}
+
+.sidebar { 
+
+
+    background-color: cyan;
+    font-size: 50px;
+
+}
+
+.sponsors { 
+
+
+    background-color: crimson;
+    grid-column: 1/span 2; 
+    font-size: 50px;
+
+
+}
+
+.footer {
+
+    background-color: darkorange;
+    grid-column: 1/ span 2; 
+    font-size: 50px;
+}
